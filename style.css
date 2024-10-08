@@ -1,0 +1,105 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  background-color: var(--grey-900);
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Button */
+.btn {
+  background-color: var(--grey-700);
+  padding: 1.7rem;
+  text-align: center;
+  border-radius: 7px;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.btn--block {
+  width: 100%;
+  display: block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--green);
+  color: var(--grey-700);
+}
+
+/* Profile Card */
+.profile-card {
+  width: 32.7rem;
+  text-align: center;
+  background-color: var(--grey-800);
+  padding: 2.4rem;
+  border-radius: 1rem;
+}
+
+.profile-card__avatar {
+  width: 8.8rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.profile-card__name {
+  margin-bottom: 2rem;
+}
+
+.profile-card__location {
+  color: var(--green);
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.profile-card__bio {
+  margin-bottom: 2.6rem;
+  opacity: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-card {
+    padding: 4rem;
+    width: 38.4rem;
+  }
+}
