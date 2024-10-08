@@ -51,7 +51,6 @@ li:last-child .btn {
   margin-bottom: 0;
 }
 
-
 /* Button */
 .btn {
   background-color: var(--grey-700);
@@ -89,7 +88,7 @@ li:last-child .btn {
 }
 
 .profile-card__name {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile-card__location {
