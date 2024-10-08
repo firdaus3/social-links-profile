@@ -42,9 +42,15 @@ a {
   text-decoration: none;
 }
 
+/* List */
 .list {
   list-style: none;
 }
+
+li:last-child .btn {
+  margin-bottom: 0;
+}
+
 
 /* Button */
 .btn {
